@@ -99,8 +99,43 @@ body {
     cursor: pointer;
   }
 
+  @media screen and (max-width: 470px){
+    .left {
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      animation-name: left;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-delay: 1s;
+  
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 30% ;
+      margin-bottom: 30%;
+  
+      align-items: center;
+      background: rgb(255, 255, 255);
+      box-shadow: black;
+    }
 
+    .card {
+      display: none;
+      overflow: hidden;
+      position: fixed;
+      background-color: #ffffff;
+      text-align: center;
+      border-radius: 0.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+  }
+  
 }
+
+
 
 .left {
   overflow: hidden;
