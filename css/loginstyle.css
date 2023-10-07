@@ -14,7 +14,7 @@ body {
 @media screen and (max-width: 768px){
   .container{
     width: 100%;
-    background-image: url(/web\ \(js\,html\,css\)/images/pugnoveterinario.avif);
+    background-image: url(/images/pugnoveterinario.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +118,7 @@ body {
   flex: 1;
   background-color: black;
   transition: 1s;
-  background-image: url(/web\ \(js\,html\,css\)/images/pugnoveterinario.avif);
+  background-image: url(/images/pugnoveterinario.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
